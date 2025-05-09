@@ -1,0 +1,22 @@
+{
+  "name": "test-dependabot-version-upgrades",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "^20.0.0 || ^22.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  },
+  "browserslist": [
+    ">= 0.2%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not kaios < 3.0",
+    "not op_mini all",
+    "not dead"
+  ]
+}

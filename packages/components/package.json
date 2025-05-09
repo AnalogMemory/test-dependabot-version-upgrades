@@ -1,0 +1,14 @@
+{
+  "name": "@example/components",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "lodash": "~4.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vitest": "~2.0.0"
+  }
+}
