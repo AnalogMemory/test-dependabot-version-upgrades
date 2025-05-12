@@ -7,8 +7,12 @@ updates:
       - /packages/*
     schedule:
       interval: "daily"
+    groups:
+      eslint:
+        applies-to: version-updates
+        patterns:
+          - "*eslint*"
     allow:
-      - dependency-name: "eslint"
       - dependency-type: "direct"
     ignore:
       - dependency-name: "@vitejs/*"
