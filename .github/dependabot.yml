@@ -5,16 +5,6 @@ updates:
     schedule:
       interval: "daily"
     allow:
-      - dependency-name: "*biome"
-      - dependency-type: "direct"
-    open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
-  - package-ecosystem: "npm"
-    directory: "/dashboard"
-    schedule:
-      interval: "daily"
-    allow:
       - dependency-name: "eslint"
       - dependency-type: "direct"
     ignore:
@@ -22,15 +12,6 @@ updates:
       - dependency-name: "lodash"
       - dependency-name: "react"
       - dependency-name: "vite"
-    open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
-  - package-ecosystem: "npm"
-    directory: "/packages/components"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "*"
     open-pull-requests-limit: 5
     labels:
       - "dependencies"
