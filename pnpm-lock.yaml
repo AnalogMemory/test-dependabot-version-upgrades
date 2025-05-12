@@ -22,8 +22,8 @@ importers:
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@eslint/js':
-        specifier: ~9.0.0
-        version: 9.0.0
+        specifier: ^9.26.0
+        version: 9.26.0
       '@types/react':
         specifier: ^18.0.0
         version: 18.3.21
@@ -34,7 +34,7 @@ importers:
         specifier: ^4.0.0
         version: 4.4.1(vite@5.0.13)
       eslint:
-        specifier: ~9.0.0
+        specifier: ^9.0.0
         version: 9.0.0
       vite:
         specifier: ~5.0.0
@@ -345,6 +345,10 @@ packages:
 
   '@eslint/js@9.0.0':
     resolution: {integrity: sha512-RThY/MnKrhubF6+s1JflwUjPEsnCEmYCWwqa/aRISKWNXGZ9epUwft4bUMM35SdKF9xvBrLydAM1RDHd1Z//ZQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@eslint/js@9.26.0':
+    resolution: {integrity: sha512-I9XlJawFdSMvWjDt6wksMCrgns5ggLNfFwFvnShsleWruvXM514Qxk8V246efTw+eo9JABvVz+u3q2RiAowKxQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@humanwhocodes/config-array@0.12.3':
@@ -1366,6 +1370,8 @@ snapshots:
       - supports-color
 
   '@eslint/js@9.0.0': {}
+
+  '@eslint/js@9.26.0': {}
 
   '@humanwhocodes/config-array@0.12.3':
     dependencies:
