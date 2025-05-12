@@ -10,11 +10,14 @@ updates:
       - dependency-name: "eslint"
       - dependency-type: "direct"
     ignore:
-      - dependency-name: "@vitejs"
+      - dependency-name: "@vitejs/*"
+      - dependency-name: "@types/*"
       - dependency-name: "biome"
       - dependency-name: "lodash"
       - dependency-name: "react"
+      - dependency-name: "*react-dom"
       - dependency-name: "vite"
+      - dependency-name: "vitest"
     open-pull-requests-limit: 5
     labels:
       - "dependencies"
