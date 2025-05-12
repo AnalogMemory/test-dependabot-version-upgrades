@@ -1,7 +1,9 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/"
+    directories:
+      - /dashboard
+      - /packages/components
     schedule:
       interval: "daily"
     allow:
@@ -9,6 +11,7 @@ updates:
       - dependency-type: "direct"
     ignore:
       - dependency-name: "@vitejs"
+      - dependency-name: "biome"
       - dependency-name: "lodash"
       - dependency-name: "react"
       - dependency-name: "vite"
