@@ -5,17 +5,19 @@ updates:
       - /
     schedule:
       interval: "daily"
+    allow:
+      - dependency-type: "direct"
     groups:
       eslint:
         applies-to: version-updates
         patterns:
           - "*eslint*"
-    allow:
-      - dependency-type: "direct"
+      biome:
+        patterns:
+          - "@biomejs/*"
     ignore:
       - dependency-name: "@vitejs/*"
       - dependency-name: "@types/*"
-      - dependency-name: "biome"
       - dependency-name: "lodash"
       - dependency-name: "react"
       - dependency-name: "*react-dom"
