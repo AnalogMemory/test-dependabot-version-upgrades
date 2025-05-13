@@ -8,7 +8,7 @@ updates:
       interval: "daily"
 
     commit-message:
-      prefix: "[deps] "
+      prefix: "[deps]"
       include: scope
     open-pull-requests-limit: 5
     labels:
@@ -24,18 +24,31 @@ updates:
         applies-to: version-updates
         patterns:
           - "*eslint*"
+        update-types:
+          - minor
+          - patch
       vite:
         patterns:
           - "@vitejs/*"
           - "vite"
+        update-types:
+          - minor
+          - patch
       vitest:
         patterns:
           - "vitest"
+        update-types:
+          - minor
+          - patch
       react:
         patterns:
           - "react"
           - "react-dom"
           - "@types/react*"
+        update-types:
+          - minor
+          - patch
 
     ignore:
-      - dependency-name: "lodash"
+      - update-types:
+        - version-update:semver-major
