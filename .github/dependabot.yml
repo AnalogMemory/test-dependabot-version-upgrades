@@ -8,6 +8,7 @@ updates:
       interval: "daily"
 
     commit-message:
+      prefix: "📦 "
       include: scope
     open-pull-requests-limit: 5
     labels:
