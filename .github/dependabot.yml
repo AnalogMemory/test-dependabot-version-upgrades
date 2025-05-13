@@ -19,11 +19,13 @@ updates:
       vitest:
         patterns:
           - "vitest"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react*"
     ignore:
-      - dependency-name: "@types/*"
       - dependency-name: "lodash"
-      - dependency-name: "react"
-      - dependency-name: "*react-dom"
     versioning-strategy: increase
     open-pull-requests-limit: 5
     labels:
