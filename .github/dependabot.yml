@@ -3,10 +3,22 @@ updates:
   - package-ecosystem: "npm"
     directories:
       - /
+
     schedule:
       interval: "daily"
+
+    commit-message:
+      prefix: "[deps] "
+      include: scope
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+
+    versioning-strategy: increase
+
     allow:
       - dependency-type: "direct"
+
     groups:
       eslint:
         applies-to: version-updates
@@ -24,9 +36,6 @@ updates:
           - "react"
           - "react-dom"
           - "@types/react*"
+
     ignore:
       - dependency-name: "lodash"
-    versioning-strategy: increase
-    open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
