@@ -19,7 +19,7 @@
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^9.26.0",
-    "vite": "~5.0.0"
+    "vite": "~5.4.19"
   },
   "env": {
     "browser": true
