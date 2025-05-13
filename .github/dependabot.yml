@@ -8,7 +8,6 @@ updates:
       interval: "daily"
 
     commit-message:
-      prefix: "[deps]"
       include: scope
     open-pull-requests-limit: 5
     labels:
