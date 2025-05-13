@@ -12,17 +12,18 @@ updates:
         applies-to: version-updates
         patterns:
           - "*eslint*"
-      biome:
+      vite:
         patterns:
-          - "@biomejs/*"
+          - "@vitejs/*"
+          - "vite"
+      vitest:
+        patterns:
+          - "vitest"
     ignore:
-      - dependency-name: "@vitejs/*"
       - dependency-name: "@types/*"
       - dependency-name: "lodash"
       - dependency-name: "react"
       - dependency-name: "*react-dom"
-      - dependency-name: "vite"
-      - dependency-name: "vitest"
     versioning-strategy: increase
     open-pull-requests-limit: 5
     labels:
