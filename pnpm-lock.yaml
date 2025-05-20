@@ -43,8 +43,8 @@ importers:
   packages/components:
     dependencies:
       lodash:
-        specifier: ~4.0.0
-        version: 4.0.1
+        specifier: ~4.17.21
+        version: 4.17.21
     devDependencies:
       vite:
         specifier: ^5.0.0
@@ -853,8 +853,8 @@ packages:
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
 
-  lodash@4.0.1:
-    resolution: {integrity: sha512-jA3EFncTLSpNOJLgZUlI7Xrsg3t/DYbgPuRVD1qbLoyUXgzUEvB0EpJimh+WBM6CUNtAyKJ1CVPD+7wE+LrraQ==}
+  lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
   loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
@@ -1855,7 +1855,7 @@ snapshots:
 
   lodash.merge@4.6.2: {}
 
-  lodash@4.0.1: {}
+  lodash@4.17.21: {}
 
   loose-envify@1.4.0:
     dependencies:
